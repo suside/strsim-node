@@ -1,0 +1,12 @@
+{
+  "name": "strsim-node",
+  "version": "0.1.0",
+  "description": "node bindings for strsim lib, a Rust implementation of string similarity metrics",
+  "main": "strsim-node.node",
+  "author": "Maciej Filipiak",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/suside/strsim-node.git"
+  }
+}

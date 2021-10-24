@@ -1,0 +1,17 @@
+[package]
+name = "strsim-node"
+version = "0.1.0"
+license = "ISC"
+edition = "2018"
+exclude = ["strsim-node.node"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+strsim = "0.10.0"
+
+[dependencies.neon]
+version = "0.9"
+default-features = false
+features = ["napi-6"]
